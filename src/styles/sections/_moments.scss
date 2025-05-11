@@ -1,0 +1,30 @@
+#gallery {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  
+    .moment-card {
+      background: #2a2a3b;
+      border: 2px solid #fdc632;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: scale(1.02);
+      }
+  
+      .moment-thumb img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        display: block;
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .moment-thumb img {
+        display: none;
+    }
+  }

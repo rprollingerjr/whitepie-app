@@ -1,0 +1,125 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+}
+
+@keyframes php-email-form-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+// main: ../main.scss
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--surface-color);
+    font-family: var(--heading-font);
+}
+
+.btn-brand-yellow {
+    background-color: var(--accent-color);
+    color: #000;
+    border: none;
+
+    &:hover {
+        background-color: darken(#f9d342, 10%);
+    }
+
+    position: relative;
+    transition: background-color 0.3s ease;
+
+    i {
+        transition: transform 0.3s ease;
+    }
+
+    &:hover i {
+        transform: translateX(5px);
+    }
+}
+
+.page-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    border-left: 10px solid #fec500;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.page-subtitle {
+    margin-left: 10px;
+    color: #FFF;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.section-header {
+    text-transform: uppercase;
+    font-weight: 700;
+    border-left: 10px solid #fdc632;
+    padding-left: 12px;
+    margin-bottom: 30px;
+    color: #000;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ccc;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  

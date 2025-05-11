@@ -1,0 +1,56 @@
+.menu-section {
+    color: #ffffff;
+    padding: 4rem 1rem;
+  
+    h3 {
+      color: #fdc632;
+      font-weight: 700;
+    }
+  
+    .card {
+      background-color: #2a2a3b;
+      border: none;
+      transition: transform 0.3s ease;
+      color: #fff;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+        border-bottom: 2px solid #fdc632;
+      }
+  
+      .card-body {
+        padding: 1rem;
+  
+        .card-title {
+          font-size: 1.25rem;
+          color: #fdc632;
+        }
+  
+        .card-text {
+          font-size: 0.95rem;
+          color: #ddd;
+        }
+      }
+  
+      .price-tag {
+        background-color: #fdc632;
+        color: #1e1e2f;
+        font-weight: 700;
+        padding: 0.3rem 0.75rem;
+        border-radius: 0.25rem;
+        display: inline-block;
+        float: right;
+      }
+    }
+  
+    .menu-footer {
+      color: #aaa;
+      font-style: italic;
+    }
+  }
+  

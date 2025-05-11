@@ -1,0 +1,46 @@
+.about-section {
+    color: #fff;
+    padding: 4rem 1rem;
+  
+    .hero-img {
+      max-height: 250px;
+      object-fit: cover;
+      border: 3px solid #fdc632;
+      border-radius: 8px;
+      width: 100%;
+    }
+  
+    .bio-text {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      white-space: pre-line;
+    }
+  
+    .card {
+      background-color: #2a2a3b;
+      border: none;
+      color: #fff;
+      transition: transform 0.3s ease;
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+  
+      .card-img-top {
+        height: 180px;
+        object-fit: cover;
+        border-bottom: 2px solid #fdc632;
+      }
+  
+      .card-title {
+        color: #fdc632;
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+  
+      .card-text {
+        color: #ddd;
+      }
+    }
+  }
+  

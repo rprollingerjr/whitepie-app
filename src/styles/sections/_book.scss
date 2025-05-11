@@ -1,0 +1,48 @@
+.book-section {
+    color: #fff;
+    padding: 4rem 1rem;
+    min-height: 100vh;
+  
+    label {
+      color: #fdc632;
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+  
+    .form-control {
+      background-color: #2a2a3b;
+      color: #fff;
+      border: 1px solid #444;
+    }
+  
+    .form-control::placeholder {
+      color: #aaa;
+    }
+  
+    .form-control:focus {
+      border-color: #fdc632;
+      box-shadow: none;
+    }
+  
+    .btn-brand-yellow {
+      background-color: #fdc632;
+      color: #1e1e2f;
+      font-weight: bold;
+      padding: 0.75rem;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+  
+    .btn-brand-yellow:hover {
+      background-color: #e6b800;
+    }
+  
+    .form-wrapper {
+      max-width: 700px;
+      background: #2a2a3b;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    }
+  }
+  
