@@ -27,11 +27,11 @@ export default function Header() {
         <nav id="navmenu" className={`navmenu ${menuOpen ? 'navmenu-active' : ''}`}>
           <ul>
             <li><Link to="/" onClick={closeMenu} className={isActive('/') ? 'text-warning text-decoration-underline' : ''}>Home</Link></li>
-            <li><Link to="/events" onClick={closeMenu} className={isActive('/events') ? 'text-warning' : ''}>Events</Link></li>
-            <li><Link to="/menu" onClick={closeMenu} className={isActive('/menu') ? 'text-warning' : ''}>Revolving Menu</Link></li>
-            <li><Link to="/gallery" onClick={closeMenu} className={isActive('/gallery') ? 'text-warning' : ''}>Gallery</Link></li>
-            <li><Link to="/about" onClick={closeMenu} className={isActive('/about') ? 'text-warning' : ''}>About</Link></li>
-            <li><Link to="/book" onClick={closeMenu} className={isActive('/book') ? 'text-warning' : ''}>Book Me</Link></li>
+            <li><Link to="/events" onClick={closeMenu} className={isActive('/events') ? 'text-warning text-decoration-underline' : ''}>Events</Link></li>
+            <li><Link to="/menu" onClick={closeMenu} className={isActive('/menu') ? 'text-warning text-decoration-underline' : ''}>Revolving Menu</Link></li>
+            <li><Link to="/gallery" onClick={closeMenu} className={isActive('/gallery') ? 'text-warning text-decoration-underline' : ''}>Gallery</Link></li>
+            <li><Link to="/about" onClick={closeMenu} className={isActive('/about') ? 'text-warning text-decoration-underline' : ''}>About</Link></li>
+            <li><Link to="/book" onClick={closeMenu} className={isActive('/book') ? 'text-warning text-decoration-underline' : ''}>Book Me</Link></li>
           </ul>
         </nav>
 
